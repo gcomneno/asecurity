@@ -1,0 +1,19 @@
+{
+    "name": "gcc/asecurity",
+    "autoload": {
+        "psr-4": {
+            "gcc\\asecurity\\": "src/",
+            "gcc\\asecurity\\test\\": "test/"
+
+        }
+    },
+    "authors": [
+        {
+            "name": "Giancarlo Cicellyn Comneno",
+            "email": "giancarlo.cicellyn@bakeca.it"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
